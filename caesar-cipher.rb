@@ -55,8 +55,8 @@ def caesar_cipher(str, val)
       str_arr.each_with_index do |el, index| 
         str_count[index] = str_count[index].upcase if el == el.upcase
       end
-    
+      
     #return the str_count which is now the ceasar cipher 
-    puts str_count.join("")
+    return str_count.join("")
   
 end
